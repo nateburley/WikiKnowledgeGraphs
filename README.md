@@ -6,8 +6,29 @@ Wikipedia is the world's encyclopedia, containing (approximately) the sum total 
 have created the opportunity to mine this repository of knowledge for patterns and structure representing concepts and information, and embed this data 
 into a structured graph that can be queried to answer questions.
 
-## Usage
+## Setup
+To set up the environment, we recommend using conda:
 
+```
+conda create -n wiki_kg python=3.7
+```
+
+Next, activate the environemnt:
+
+```
+conda activate wiki_kg
+```
+
+And install the following libraries:
+
+```
+pip install spacy==2.1.0
+pip install neuralcoref
+pip install wikipedia-api
+pip install networkx
+pip install pandas
+pip install matplotlib
+```
 
 ## Results and Further Work
 - For large datasets, the results could possibly be improved by using Word2Vec embeddings and cosine similarities to drop irrelevant terms. We could train 
