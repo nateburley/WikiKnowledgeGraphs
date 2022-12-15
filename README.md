@@ -2,7 +2,7 @@
 ## Summary
 
 ## Purpose
-Wikipedia is the world's encyclopedia, containing (approximately) the sum total of all human knowledge. Advances in natural language processing techniques 
+Wikipedia is the world's encyclopedia, containing (as far as I'm concerned) the sum total of all human knowledge. Advances in natural language processing techniques 
 have created the opportunity to mine this repository of knowledge for patterns and structure representing concepts and information, and embed this data 
 into a structured graph that can be queried to answer questions.
 
