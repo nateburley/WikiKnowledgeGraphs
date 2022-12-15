@@ -42,6 +42,9 @@ pip install matplotlib
   - That rule then goes into our list of rules, and the iteration proceeds
   
   On that note, here's an algorithm for comparing trees: https://arxiv.org/pdf/1508.03381.pdf
+  
+- Lots of random pages that aren't that relevant get scraped. Can those nodes be dropped later, since in theory they should be "less connected" than the 
+  other nodes that are actually "on topic"?
 
 ## Sources and Further Reading
 - https://www.analyticsvidhya.com/blog/2019/10/how-to-build-knowledge-graph-text-using-spacy/
