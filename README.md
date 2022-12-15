@@ -35,7 +35,7 @@ pip install matplotlib
   the model on all the pages used and then drop terms with low co-occurences.
 - Something else that could be an interesting side project, perhaps on its own: inferring semantic rules from similar dependency trees. The article (linked 
   below) gives an introduction, but it would be interesting to put some thought into mathematically determining how similar given trees are. This could 
-  actually even involve some CBR:
+  actually even involve some Case-Based Reasoning:
   - Take some common trees (hyper/hyponyms, etc.) and make rules for them
   - Next, for a sentence that doesn't fit into a pre-defined rule, figure out the most similar dependency tree, and
     modify the rule as needed to fit the new sentence!
