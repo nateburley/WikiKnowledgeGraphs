@@ -9,14 +9,14 @@ from wiki_knowledge_graph import *
 
 if __name__ == '__main__':
     # Scrape Wikipedia for a topic
-    # wiki_data = wiki_scrape(['Catholic Church', 'Islam', 'Russian Orthodox Church', 'Judaism', 'Buddhism', 'Panpsychism', 'UFO religion'])
-    # print("WIKIPEDIA SCRAPE DF LENGTH: {}".format(len(wiki_data.index)))
-    # print(wiki_data.head(25))
-    # print("\n")
+    wiki_data = wiki_scrape(['Catholic Church', 'Islam', 'Russian Orthodox Church', 'Judaism', 'Buddhism', 'Panpsychism', 'UFO religion'])
+    print("WIKIPEDIA SCRAPE DF LENGTH: {}".format(len(wiki_data.index)))
+    print(wiki_data.head(25))
+    print("\n")
 
-    # # Pickle the wiki_data to not have to scrape a million times
-    # datafile = open('religion_wiki_data', 'wb')
-    # pickle.dump(wiki_data, datafile)
+    # Pickle the wiki_data to not have to scrape a million times
+    datafile = open('religion_wiki_data', 'wb')
+    pickle.dump(wiki_data, datafile)
 
     # Load in the wiki data, so we don't have to scrape
     infile = open('religion_wiki_data', 'rb')

@@ -158,7 +158,8 @@ NOTES:
         - https://realpython.com/natural-language-processing-spacy-python/
         - https://programmerbackpack.com/python-knowledge-graph-understanding-semantic-relationships/
 
-    - Word2Vec similarity could be used to drop irrelevant termshttps://jalammar.github.io/illustrated-word2vec/
+    - Word2Vec similarity could be used to drop irrelevant terms
+        - Overview of text embeddings: https://jalammar.github.io/illustrated-word2vec/
         - Train the algorithm on all the pages used and then drop terms with low co-occurences (?)
           That might only work for large datasets, but...could be worth looking into!
 
