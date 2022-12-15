@@ -1,5 +1,6 @@
 # Wikipedia Knowledge Graphs
 ## Summary
+Given a list of topics, ideally Wikipedia pages, we construct and display a knowledge graph of the key entities and their connecting relationships.
 
 ## Purpose
 Wikipedia is the world's encyclopedia, containing (as far as I'm concerned) the sum total of all human knowledge. Advances in natural language processing techniques 
