@@ -34,7 +34,7 @@ pip install matplotlib
 ## Results
 The output of running the main program should be a graph that looks something like the following:
 
-[KNOWLEDGE GRAPH IMAGE HERE]
+![alt text](https://github.com/nateburley/WikiKnowledgeGraphs/blob/master/knowledge_graph_example.png)
 
 ## Further Work
 - Productionize this by creating a web page where users can select topics from a drop down menu, and render the knowledge graph in their browser
