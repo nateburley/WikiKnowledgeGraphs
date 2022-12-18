@@ -31,7 +31,13 @@ pip install pandas
 pip install matplotlib
 ```
 
-## Results and Further Work
+## Results
+The output of running the main program should be a graph that looks something like the following:
+
+[KNOWLEDGE GRAPH IMAGE HERE]
+
+## Further Work
+- Productionize this by creating a web page where users can select topics from a drop down menu, and render the knowledge graph in their browser
 - For large datasets, the results could possibly be improved by using Word2Vec embeddings and cosine similarities to drop irrelevant terms. We could train 
   the model on all the pages used and then drop terms with low co-occurences.
 - Something else that could be an interesting side project, perhaps on its own: inferring semantic rules from similar dependency trees. The article (linked 
